@@ -42,7 +42,7 @@ pip install transformers
 ### Run Demo
 ```bash
 cd CoGenCast
-bash scripts/ETTh1.sh
+sh scripts/ETTh1.sh
 ```
 
 ## 📊 Performance
