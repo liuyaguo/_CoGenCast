@@ -21,9 +21,9 @@ by attention-only modification, and perform continuous flow-matching mechanism c
 Right (Inference): Future patches are generated autoregressively and sampled via one-step flow-matching generation with low-latency. 
 
 ## ✨ Key Features
-- Coupled autoregressive-flow generation for expressive forecasting distributions
-- Flexible backbone integration with large language models for sequence modeling
-- Supports pretraining and finetuning across multiple time-series datasets
+- Problem Reformulation: We highlight that an ideal  forecasting approach should possess dual capabilities: semantic understanding over contextual conditions and stochastic modeling of continuous temporal dynamics.
+- Architecture Innovation: We propose CoGenCast, a hybrid generative framework that couples pre-trained LLMs with continuous flow-matching mechanism for  time series forecasting.
+- Empirical Superiority: CoGenCast consistently outperforms previous methods in forecasting across multiple benchmarks.
 
 ## 🚀 Quick Start
 ### Environment
