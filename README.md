@@ -16,9 +16,9 @@ In this work, we propose CoGenCast, a hybrid generative framework that couples p
 
 ## 🖼️ Overview
 ![CoGenCast Framework](assets/framework.png)
-- Figure 1. Overview of our proposed CoGenCast. Left (Training): We reconfigure decoder-only LLMs into an encoder–decoder backbone
+- Figure 1. Overview of our proposed CoGenCast. **Left (Training)**: We reconfigure decoder-only LLMs into an encoder–decoder backbone
 by attention-only modification, and perform continuous flow-matching mechanism conditioned on the LLM-generated representation.
-Right (Inference): Future patches are generated autoregressively and sampled via one-step flow-matching generation with low-latency. 
+**Right (Inference)**: Future patches are generated autoregressively and sampled via one-step flow-matching generation with low-latency. 
 
 ## ✨ Key Features
 - Problem Reformulation: We highlight that an ideal  forecasting approach should possess dual capabilities: semantic understanding over contextual conditions and stochastic modeling of continuous temporal dynamics.
