@@ -6,7 +6,7 @@
 </p>
 
 ## 📝 Abstract
-We propose CoGenCast, a coupled autoregressive-flow generative framework for time series forecasting. The method integrates an autoregressive backbone with flow-based generation to model complex temporal dependencies, aiming to improve forecasting accuracy and robustness across diverse datasets.
+In this work, we propose CoGenCast, a hybrid generative framework that couples pre-trained LLMs with flow-matching mechanism for effective time series forecasting.
 
 <details>
   <summary><b>Full Abstract</b></summary>
