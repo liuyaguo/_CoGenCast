@@ -40,14 +40,14 @@ pip install transformers
 
 ### Datasets and LLM Backbone
 #### Datasets
-We use the following five real-world datasets for our experiments. They are placed in the ./datasets folder in the repository. Please ensure you adhere to each dataset's respective license when using them.
-- ETT: Available at [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://cdn.aaai.org/ojs/17325/17325-13-20819-1-2-20210518.pdf).
-- Enery、Environment、Health: Available at [Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis](https://proceedings.neurips.cc/paper_files/paper/2024/file/8e7768122f3eeec6d77cd2b424b72413-Paper-Datasets_and_Benchmarks_Track.pdf).
-- Exchange: Available at [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://ise.thss.tsinghua.edu.cn/~mlong/doc/Autoformer-nips21.pdf).
-- Wind: Available at [Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement](https://proceedings.neurips.cc/paper_files/paper/2022/file/91a85f3fb8f570e6be52b333b5ab017a-Paper-Conference.pdf).
-- Solar: Available at [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://dl.acm.org/doi/epdf/10.1145/3209978.3210006).
+- We use the following five real-world datasets for our experiments. They are placed in the ./datasets folder in the repository. Please ensure you adhere to each dataset's respective license when using them.
+-- ETT: Available at [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://cdn.aaai.org/ojs/17325/17325-13-20819-1-2-20210518.pdf).
+-- Enery、Environment、Health: Available at [Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis](https://proceedings.neurips.cc/paper_files/paper/2024/file/8e7768122f3eeec6d77cd2b424b72413-Paper-Datasets_and_Benchmarks_Track.pdf).
+-- Exchange: Available at [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://ise.thss.tsinghua.edu.cn/~mlong/doc/Autoformer-nips21.pdf).
+-- Wind: Available at [Generative Time Series Forecasting with Diffusion, Denoise, and Disentanglement](https://proceedings.neurips.cc/paper_files/paper/2022/file/91a85f3fb8f570e6be52b333b5ab017a-Paper-Conference.pdf).
+-- Solar: Available at [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://dl.acm.org/doi/epdf/10.1145/3209978.3210006).
 #### Backbone
-Download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
+- Download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
 
 ### Run Demo
 ```bash
