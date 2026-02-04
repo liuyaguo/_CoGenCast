@@ -6,7 +6,7 @@
 </p>
 
 ## 📝 Abstract
-In this work, we propose CoGenCast, a hybrid generative framework that couples pre-trained LLMs with flow-matching mechanism for effective time series forecasting. This repository contains the official code for our [paper].(https://arxiv.org/abs/2602.03564)
+In this work, we propose CoGenCast, a hybrid generative framework that couples pre-trained LLMs with flow-matching mechanism for effective time series forecasting. This repository contains the official code for our [paper](https://arxiv.org/abs/2602.03564).
 
 <details>
   <summary><b>Full Abstract</b></summary>
