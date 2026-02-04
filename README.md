@@ -57,3 +57,6 @@ This repo is built on the pioneer works. We appreciate the following GitHub repo
   [CSDI](https://github.com/ermongroup/CSDI)
   [TimeDART](https://github.com/Melmaphother/TimeDART)
   [PatchTST](https://github.com/yuqinie98/PatchTST)
+  
+## 📌 Citation
+> If you find our work helpful, please consider starring this repository and citing our research.
