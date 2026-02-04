@@ -8,6 +8,12 @@
 ## 📝 Abstract
 We propose CoGenCast, a coupled autoregressive-flow generative framework for time series forecasting. The method integrates an autoregressive backbone with flow-based generation to model complex temporal dependencies, aiming to improve forecasting accuracy and robustness across diverse datasets.
 
+<details>
+  <summary><b>Full Abstract</b></summary>
+
+  Time series forecasting can be  viewed as a generative problem that requires both semantic understanding over contextual conditions and stochastic modeling of continuous temporal dynamics. Existing approaches typically rely on either autoregressive large language models (LLMs) for semantic context modeling or diffusion-like models for continuous probabilistic generation. However, neither method alone can adequately model both aspects simultaneously. In this work, we propose CoGenCast, a hybrid generative framework that couples pre-trained LLMs with flow-matching mechanism for effective time series forecasting. Specifically, we reconfigure  pre-trained decoder-only LLMs into a  native forecasting encoder–decoder backbone by modifying only the attention topology, enabling bidirectional context encoding and causal representation generation. Building on this, a flow-matching mechanism  is further integrated to model temporal evolution, capturing continuous stochastic dynamics conditioned on the autoregressively generated representation. Notably, CoGenCast naturally supports multimodal forecasting and cross-domain unified training. Extensive experiments on multiple benchmarks show that CoGenCast consistently outperforms previous compared baselines. 
+</details>
+
 ## 🖼️ Overview
 ![CoGenCast Framework](assets/framework.png)
 
