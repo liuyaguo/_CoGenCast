@@ -39,42 +39,10 @@ pip install transformers
 - Datasets: download the datasets you need and place them under `./datasets/` (e.g., `./datasets/ETTh1/ETTh1.csv`).
 - Backbone: download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
 
-### Example Run
+### Run Demo
 ```bash
-CUDA_VISIBLE_DEVICES=0 python -u run.py \
-  --task_name finetune \
-  --is_training 1 \
-  --root_path ./datasets/Wind/ \
-  --data_path Wind.csv \
-  --model_id Wind \
-  --model CoGenCast \
-  --data Wind \
-  --features M \
-  --input_len 96 \
-  --label_len 0 \
-  --pred_len 12 \
-  --e_layers 2 \
-  --pt_layers 4 \
-  --enc_in 1 \
-  --dec_in 1 \
-  --c_out 1 \
-  --n_heads 16 \
-  --d_model 1024 \
-  --d_ff 256 \
-  --patch_len 4 \
-  --stride 4 \
-  --dropout 0.2 \
-  --head_dropout 0.1 \
-  --batch_size 4 \
-  --gpu 0 \
-  --lr_decay 0.5 \
-  --lradj step \
-  --time_steps 1000 \
-  --scheduler cosine \
-  --patience 3 \
-  --backbone Qwen3-0.6B \
-  --learning_rate 1e-4 \
-  --pct_start 0.3
+cd CoGenCast
+bash scripts/ETTh1.sh
 ```
 
 ## 📊 Performance
