@@ -76,8 +76,7 @@ CUDA_VISIBLE_DEVICES=0 python -u run.py \
 
 ## 🙏 Acknowledgement
 This repo is built on the pioneer works. We appreciate the following GitHub repos a lot for their valuable code base or datasets:
-- [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
-- [LLM4TS](https://github.com/blacksnail789521/LLM4TS)
+- [Time-Series-Library](https://github.com/thuml/Time-Series-Library)  [LLM4TS](https://github.com/blacksnail789521/LLM4TS)
 - [Time-LLM](https://github.com/KimMeen/Time-LLM)
 - [FlowTS](https://github.com/UNITES-Lab/FlowTS)
 - [CDPM](https://github.com/zjt-gpu/CDPM)
