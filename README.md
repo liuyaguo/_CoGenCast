@@ -1,4 +1,4 @@
-<h1 align="center">CoGenCast: A Coupled Autoregressive-Flow Generative Framework<br>for Time Series Forecasting</h1>
+<h1 align="center">CoGenCast: A Coupled Autoregressive-Flow Generative Framework for Time Series Forecasting</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+" />
   <img src="https://img.shields.io/badge/PyTorch-2.2.2-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch 2.2.2" />
