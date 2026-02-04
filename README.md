@@ -1,4 +1,9 @@
-# CoGenCast: A Coupled Autoregressive-Flow Generative Framework for Time Series Forecasting
+<h1 align="center">CoGenCast: A Coupled Autoregressive-Flow Generative Framework<br>for Time Series Forecasting</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/PyTorch-2.2.2-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch 2.2.2" />
+  <img src="https://img.shields.io/badge/Time%20Series-Forecasting-2F4F4F" alt="Time Series Forecasting" />
+</p>
 
 ## Abstract
 We propose CoGenCast, a coupled autoregressive-flow generative framework for time series forecasting. The method integrates an autoregressive backbone with flow-based generation to model complex temporal dependencies, aiming to improve forecasting accuracy and robustness across diverse datasets.
