@@ -19,8 +19,11 @@ We propose CoGenCast, a coupled autoregressive-flow generative framework for tim
 ## 🚀 Quick Start
 ### Environment
 - Python 3.10 (recommended)
-- Install dependencies:
-
+```bash
+conda create cogencast python=3.10
+conda activate cogencast
+```
+- Install dependencies
 ```bash
 pip install -r requirements.txt
 pip install transformers
