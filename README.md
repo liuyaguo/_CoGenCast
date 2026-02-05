@@ -50,7 +50,7 @@ For all datasets , the CSV should contain:
 
 - `date` (timestamp)
 - `feature columns` (multivariate) or the target column (univariate)
-- `json_summary` (text summary field used as  context features)
+- `json_summary` (text summary field in the last column used as  context features)
 
 ### Backbone
 Download the Qwen3-0.6B weights from [Hugging Face](https://huggingface.co/) and set the local path via `--llm_path`.
