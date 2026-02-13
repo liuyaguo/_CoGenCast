@@ -39,7 +39,8 @@ class Model(nn.Module):
         self.args = args
         self.input_len = args.input_len
 
-        
+        self.alpha = torch.nn.Parameter(torch.tensor(0.0))
+
         self.d_model = args.d_model
         self.num_heads = args.n_heads
         self.feedforward_dim = args.d_ff
@@ -216,7 +217,8 @@ class Model(nn.Module):
             
 
         text_tokens_bf = text_tokens.repeat_interleave(F, dim=0)   
-   
+        lea = torch.sigmoid(self.alpha)  
+        text_tokens_bf = lea * text_tokens_bf +(1-lea)  * x_emb[:, 0:1, :] 
  
         x_emb = torch.cat([text_tokens_bf, x_emb], dim=1)          
         
@@ -396,7 +398,8 @@ class Model(nn.Module):
                 
          
             text_tokens_bf = text_tokens.repeat_interleave(F, dim=0)   
-      
+            lea = torch.sigmoid(self.alpha)  
+            text_tokens_bf = lea * text_tokens_bf +(1-lea)  * x_emb[:, 0:1, :] 
             x_emb = torch.cat([text_tokens_bf, x_emb], dim=1)          
         
             S_text = S_text_target

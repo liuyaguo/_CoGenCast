@@ -24,8 +24,8 @@ for iscross in 0; do
                         --n_heads 16 \
                         --d_model 1024 \
                         --d_ff 256 \
-                        --patch_len 4 \
-                        --stride 4 \
+                        --patch_len 3 \
+                        --stride 3 \
                         --dropout 0.2 \
                         --head_dropout 0.1 \
                         --batch_size 4 \

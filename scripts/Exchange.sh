@@ -20,8 +20,8 @@ for lr in    1e-4 ; do
         --n_heads 16 \
         --d_model 1024 \
         --d_ff 256 \
-        --patch_len 3 \
-        --stride 3 \
+        --patch_len 4 \
+        --stride 4 \
         --dropout 0.2 \
         --head_dropout 0.1 \
         --batch_size 2 \
@@ -35,5 +35,6 @@ for lr in    1e-4 ; do
         --backbone Qwen3-0.6B \
         --pct_start 0.3 \
         --iscross 0 \
-        --ispretrain 0
+        --ispretrain 0\
+        --text 1
 done

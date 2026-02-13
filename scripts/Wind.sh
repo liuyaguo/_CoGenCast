@@ -40,7 +40,8 @@ for iscross in 0; do
                         --pct_start 0.3 \
                         --trial $trial \
                         --ispretrain $ispretrain \
-                        --iscross $iscross
+                        --iscross $iscross\
+                        --text 1
                 done
             done
         done

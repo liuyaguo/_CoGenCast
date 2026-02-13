@@ -3,7 +3,7 @@ for iscross in 0; do
         for pred_len in 12; do
             for trial in 1; do
                 # 遍历学习率
-                for lr in  1e-4  ; do
+                for lr in  1e-4 8e-5 ; do
                     CUDA_VISIBLE_DEVICES=2 python -u run.py \
                         --task_name finetune \
                         --is_training 1 \
@@ -24,8 +24,8 @@ for iscross in 0; do
                         --n_heads 16 \
                         --d_model 1024 \
                         --d_ff 256 \
-                        --patch_len 4 \
-                        --stride 4 \
+                        --patch_len 6 \
+                        --stride 6 \
                         --dropout 0.2 \
                         --head_dropout 0.1 \
                         --batch_size 4 \

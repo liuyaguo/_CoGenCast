@@ -3,7 +3,7 @@ for iscross in 0; do
         for pred_len in 12; do
             for trial in 1; do
                 # 遍历学习率
-                for lr in  1e-4 4e-5 ; do
+                for lr in  8e-5 4e-5 ; do
                     CUDA_VISIBLE_DEVICES=2 python -u run.py \
                         --task_name finetune \
                         --is_training 1 \
